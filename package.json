@@ -1,0 +1,17 @@
+{
+  "name": "healthcare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently -c auto -n \"server,client\" \"cd server && npm run dev\" \"cd client && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "morgan": "^1.10.0",
+    "react-router-dom": "^6.6.1"
+  }
+}
